@@ -17,7 +17,7 @@ Example:
 
 ---
 
-# 📚 Sentiment Analysis
+# Sentiment Analysis
 
 Sentiment Analysis aims to evaluate customer opinions and classify them into categories such as:
 
@@ -29,7 +29,7 @@ In this project, we focus on **binary sentiment classification** using the **IMD
 
 ---
 
-# ⚙️ Environment Setup
+# Environment Setup
 
 ### Check Python Version
 
@@ -64,7 +64,7 @@ conda activate imdb_end
 
 ---
 
-# 📥 Dataset
+# Dataset
 
 Download the dataset:
 
@@ -76,7 +76,7 @@ The dataset contains **50,000 movie reviews** labeled as **positive** or **negat
 
 ---
 
-# 📁 Create Jupyter Notebook
+# Create Jupyter Notebook
 
 Create a notebook file for experimentation:
 
@@ -86,7 +86,7 @@ analysisimdb.ipynb
 
 ---
 
-# 📦 Install Required Libraries
+# Install Required Libraries
 
 ### Install contractions library
 
@@ -103,7 +103,7 @@ pip install pandas nltk beautifulsoup4 seaborn matplotlib scikit-learn
 
 ---
 
-# 📊 Dataset Loading
+# Dataset Loading
 
 ### Load dataset using pandas
 
@@ -132,7 +132,7 @@ df.isna().sum()
 
 ---
 
-# 🧹 Data Preprocessing
+# Data Preprocessing
 
 ## Remove Duplicate Reviews
 
@@ -150,7 +150,7 @@ df.describe()
 
 ---
 
-# 🧽 Data Cleaning
+# Data Cleaning
 
 We clean the dataset using the following steps:
 
@@ -269,7 +269,7 @@ Check if a word is a stopword:
 "not" in stop
 ```
 
-⚠️ **Important:**
+**Important:**
 Words like **"no"** or **"not"** are important for sentiment analysis because they indicate **negation**. Removing them may change the meaning of a sentence and affect model accuracy.
 
 ---
@@ -288,7 +288,7 @@ Output:
 
 ---
 
-# 📊 Exploratory Data Analysis (EDA)
+# Exploratory Data Analysis (EDA)
 
 ### Install visualization libraries
 
@@ -436,7 +436,7 @@ plt.title("Most Common Words in Reviews")
 
 ---
 
-# 🔢 Text Encoding
+# Text Encoding
 
 To train machine learning models, we convert text into numerical vectors.
 
@@ -495,7 +495,7 @@ x_test_encoded = tfidf_vectorizer.transform(x_test)
 
 ---
 
-# 🤖 Model Training
+# Model Training
 
 Example prediction using a classifier:
 
@@ -511,7 +511,7 @@ label_encode.inverse_transform(example_pred)
 
 ---
 
-# 📌 Project Structure
+# Project Structure
 
 ```
 imdb_sentiment_analysis
@@ -523,7 +523,7 @@ imdb_sentiment_analysis
 
 ---
 
-# 🧠 Technologies Used
+# Technologies Used
 
 * Python
 * Pandas
