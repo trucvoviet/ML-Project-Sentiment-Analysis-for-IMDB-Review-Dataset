@@ -1,4 +1,4 @@
-# ML-Text-Project-Sentiment-Analysis-for-IMDB-Review-Dataset
+# Sentiment Analysis for IMDB Review Dataset
 
 ## Project Overview
 
